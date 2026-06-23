@@ -72,26 +72,31 @@ Comprueba las IPs asignadas a cada PC.
 Realiza pruebas de conectividad con ping.
 
 Consulta el manual para entender el proceso paso a paso.
-
+<br><br>
 
 🔍 Pruebas de conectividad
 Prueba	Origen	Destino	Resultado
 Misma subred	PC1 (192.168.15.1)	PC2 (192.168.15.2)	✅ Éxito
 Distinta subred	PC1 (192.168.15.1)	PC4 (192.168.15.65)	❌ Fallo
+<br><br>
 
 🧠 Comparativa Hub vs Switch
 Dispositivo	Capa	Funcionamiento	Segmentación
 Hub	Capa 1 (Física)	Repite señales a todos los puertos	❌ No segmenta
 Switch	Capa 2 (Enlace)	Envía según dirección MAC	❌ No segmenta (necesita router)
 Conclusión: Cambiar un Hub por un Switch NO afecta a la conectividad entre subredes, solo mejora el rendimiento interno de cada subred. Para conectar diferentes subredes se necesita un Router (Capa 3).
+<br><br>
 
 👤 Autor
 Hugo Arco
 Estudiante de SMR | Apasionado por la automatización, redes y administración de sistemas
+<br><br>
 
+<br><br>
 
 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 Consulta el archivo LICENSE para más información.
+<br><br>
 
 <p align="center"> <b>Hecho con ❤️, calculadora y mucho subnetting</b> </p> ```
